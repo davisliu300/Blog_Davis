@@ -1,0 +1,11 @@
+.jumbotron{
+	height: 120px;
+}
+
+#headerImg{
+	height: 60px;
+	width: auto;
+}
+.navbar-collapse.collapse.in { 
+	display: block !important;
+}
