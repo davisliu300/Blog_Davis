@@ -1,16 +1,12 @@
 <?php 
 	session_start();
 	
-//	require_once(serverConnect.php);
-	
 	$CONN = mysqli_connect("localhost","root","","blogger");
 	
 	$username = $_POST['username'];
 	$password = $_POST['password'];
 	
 //	$password = sha1($_POST['password']);
-	
-//	echo sha1(pass);
 	$query = "SELECT * FROM `admins` WHERE adminName = '$username' AND adminPassword ='$password'";
 	$result = mysqli_query($CONN, $query);
 	

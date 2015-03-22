@@ -14,6 +14,10 @@
 #headerH3{
 	margin-top: -5px;
 }
+.form_inline_diy{
+	opacity: 100%;
+}
+
 
 #nav-wrapper.affix {
     top: 0;
@@ -28,4 +32,15 @@
     -webkit-border-radius: 0;
     -moz-border-radius: 0;
     -o-border-radius: 0;
+}
+
+.display_blog{
+
+}
+
+
+@media screen and (max-width: 801px){
+  .mediaNoShow{
+    display: none !important;
+  }
 }
