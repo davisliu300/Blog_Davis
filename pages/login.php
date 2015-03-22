@@ -1,40 +1,28 @@
-<!doctype html>
-<html>
-<head>
-    <meta charset="UTF-8">
-    <title>Login Form</title>
-<style>
-body{
-    height: 100vh;
-    width: 100vw;
-    position: relative;
-}
-.login_form{
-    width: 40%;
-    height: 40%;
-    margin: 0 auto;
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: lightgray;
-    border: 2px double gray;
-}
-</style>
-</head>
-<body>
-    
-<div class="login_form">
-    <form action="authentication.php" method="POST">
-        User Name: <input type = "text" name = "username" placeholder = "user name"><br />
-		
-		Password: <input type = "password" name = "password" placeholder = "pass word"><br />
-		
-		<button name = "submitBtn"> Submit</button>
-		
-    </form>
-</div>
+<?php 
+	session_start();
+	
+//	require_once(serverConnect.php);
+	
+	$CONN = mysqli_connect("localhost","root","","blogger");
+	
+	$username = $_POST['username'];
+	$password = $_POST['password'];
+	
+//	$password = sha1($_POST['password']);
+	
+//	echo sha1(pass);
+	$query = "SELECT * FROM `admins` WHERE adminName = '$username' AND adminPassword ='$password'";
+	$result = mysqli_query($CONN, $query);
+	
+	if(mysqli_num_rows($result) > 0){
+		$user_info = mysqli_fetch_assoc($result);
+		$_SESSION['userinfo'] = $user_info;
+//		echo "success in authentication";
+		header('Location: ../index.php');
+//		header('Location: header2.php');
+	}else {
+		echo "wrong authentication is entered";
+	}
 
 
-
-</body>
-</html>
+?>

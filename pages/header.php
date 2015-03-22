@@ -9,7 +9,7 @@
             <button href="#hideForm #hideForm2" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">Show Menu</button>
 				  <div style="display:inline-block">
 		<div class = "nav-collapse collapse in" id = "hideForm2" > 
-		  <form class="form-inline" action="login.php" method="post">
+		  <form class="form-inline" action="pages/login.php" method="post">
 
           <input name="username" type="text" placeholder="user name" /> 
           <input name="password" type="password" placeholder="password" />
@@ -49,7 +49,7 @@
 		  
 		  
 		  <div id = "hideForm" class="nav-collapse collapse">
-		<form class="form-inline" action="login.php" method="post" >
+		<form class="form-inline" action="pages/login.php" method="post" >
           <div class="form-group">
           <input name="username" type="text" placeholder="user name" /> 
           <input name="password" type="password" placeholder="password" /></div>
