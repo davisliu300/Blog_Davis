@@ -50,6 +50,7 @@ if(isset($_SESSION['userinfo'])){
             <input class="form-control" type="text" name="subject" placeholder="Subject">
             <textarea class="form-control" name="detail_contents" placeholder="Things to blog"></textarea>
             <button type="button" id="save_task" class="btn btn-default glyphicon glyphicon-plus"></button>
+			<button id="display_refresh" type="button" class="btn btn-default glyphicon glyphicon-refresh"></button>
 		</form>
 	  
 
