@@ -7,12 +7,18 @@
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  
+  <style> 
+  
+
+  </style>
 </head>
 <body>
 
 <div class="container">
 	<div class="container">
-		<?php include("pages/header.php");?>	
+		<?php  include("pages/header.php");?>	
+		<?php //include("pages/header2.php");?>	
 	</div>
   <div class="row">
     <div class="col-sm-2">
@@ -30,6 +36,16 @@
 	  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
 	  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
 	  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p></p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
 	  
 	  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
     </div>
@@ -42,6 +58,16 @@
 	  <p>This is a advertise </p>
 	  <p>This is a advertise </p>
 	  <p>This is a advertise </p>
+	  
+<!--
+	  <a href="#Foo" class="btn btn-default" data-toggle="collapse">Toggle Foo</a>
+<button href="#Bar" class="btn btn-default" data-toggle="collapse">Toggle Bar</button>
+<div id="Foo" class="collapse in">
+    This div (Foo) is hidden by default
+</div>
+<div id="Bar" class="collapse">
+    This div (Bar) is shown by default and can toggle
+</div> --> 
     </div>
   </div>
 </div>

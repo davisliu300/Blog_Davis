@@ -1,11 +1,31 @@
 .jumbotron{
-	height: 120px;
+	height: 100px;
 }
 
-#headerImg{
-	height: 60px;
-	width: auto;
+#headerContainer{
+	margin-top: -20px;
 }
-.navbar-collapse.collapse.in { 
-	display: block !important;
+#headerImg{
+	height: 70px;
+	width: auto;
+	margin-top: -15px;
+}
+
+#headerH3{
+	margin-top: -5px;
+}
+
+#nav-wrapper.affix {
+    top: 0;
+    width: 100%
+}
+
+
+#nav > .navbar-inner {
+    border-left: 0;
+    border-right: 0;
+    border-radius: 0;
+    -webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    -o-border-radius: 0;
 }
