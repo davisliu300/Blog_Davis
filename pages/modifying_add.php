@@ -1,6 +1,8 @@
 <?php //add
+session_start();
 if(isset($_SESSION['userinfo'])){
 	$user_info = $_SESSION['userinfo'];
+//	echo "what?!";
 //	echo "you've logged in as " . $_SESSION['userinfo']['adminName'];
 }else{
 //	echo "not logged in";
@@ -10,8 +12,10 @@ if(isset($_SESSION['userinfo'])){
 	$subject = $_POST['subject'];
 	$currentDate = date('Y-m-d h:i:sa');
 	$detail_contents = $_POST['detail_contents'];	
-	echo "hellow";
-	if(isset($user_info)){
+//	echo "hellow";
+//	if(isset($user_info)){
+	if(isset($_SESSION['userinfo'])){
+	
 		echo "hellow2";
 		$query = 'INSERT INTO blogger (`subject`, `detail_contents`, `timestamp`) VALUES (';
 		// `timestamp`) VALUES (';		

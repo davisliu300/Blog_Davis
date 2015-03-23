@@ -45,7 +45,7 @@ $('document').ready(function () { //when the document is ready
 	var temp = $('#todo-list-container > .todo-record');	
 	console.log(temp);
 */	
-	$('.display_blog').on('click', '.todo-modify > .btn', function () {
+	$('.display_blog').on('click', '.todo-modify > .del_blog', function () {
 	//    $().click(function(){
 	
 //		console.log("this is ", $(this));
@@ -73,4 +73,44 @@ $('document').ready(function () { //when the document is ready
 			});
 		}
 	});
+	
+	$('.display_blog').on('click', '.todo-modify > .view_blog', function () {
+	//    $().click(function(){
+	
+//		console.log("this is ", $(this));
+//		console.log("this is parent", $(this).parents('.todo-record'));
+		
+		var rowID = $(this).parents('.todo-record').attr('data-id');
+		console.log("rowID is ",rowID);	
+
+//		var okToView = window.confirm("really to delete?");
+		var okToView = true;
+		if(okToView){		
+			$.ajax({
+				url : 'pages/modifying_view.php',
+				cache : false,
+				data: {id: rowID},
+				method: 'POST',  //use the post method
+				success : function () {
+					console.log("inside viewing success function");
+					console.log("This is been selected",$(this));
+			//		$("#display_refresh").click();
+					            
+								
+								
+					$("#dropshadow").show();					
+					$("#blogger_show").show();
+					$("#ytplayer").attr('src', 'pages/modifying_view.php');
+            
+				}
+			});
+		}
+	});
 });
+
+	function hidePop(){
+    $("#ytplayer").attr('src','');
+    $("#dropshadow").hide();
+    $("#blogger_show").hide();  
+console.log("hidepop inside");	
+	}

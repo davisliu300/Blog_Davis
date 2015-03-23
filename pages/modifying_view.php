@@ -1,17 +1,23 @@
 <?php
+session_start();
 if(isset($_SESSION['userinfo'])){
 	$user_info = $_SESSION['userinfo'];
-	echo "what?!";
 //	echo "you've logged in as " . $_SESSION['userinfo']['adminName'];
 }else{
 //	echo "not logged in";
 }
 
-//  get.php
+
+
+	$userID = $_POST['id'];		
+	
+	
 	$con = mysqli_connect('localhost', 'root','','blogger');
-    $sql = 'SELECT * FROM blogger ORDER BY `timestamp` DESC';
+//    $sql = 'SELECT * FROM blogger WHERE `id` =  $userID';
+	$sql = 'SELECT * FROM blogger WHERE `id` =  66';
     $results = mysqli_query($con, $sql);
     
+echo $userID;
     $output=[];
 //    var_dump($results);
     $html='<div class="row row-header">

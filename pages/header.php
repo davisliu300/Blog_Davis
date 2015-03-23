@@ -13,7 +13,7 @@ if(isset($_SESSION['userinfo'])){
 		<div class="col-sm-7" id="nav-wrapper" data-spy="affix" data-offset-top="400">
 			<div id="nav" class="navbar">
 				<div class="navbar-inner">
-					<button href="#hideForm%20#hideForm2" class="btn btn-navbar" data-toggle="collapse" data-target=
+					<button href="#hideForm%20#hideForm2" class="btn btn-navbar btn-primary" data-toggle="collapse" data-target=
 					".nav-collapse">Show Menu</button>
 
 					<div style="display:inline-block" class="mediaNoShow">

@@ -44,6 +44,7 @@ if(isset($_SESSION['userinfo'])){
 	  ?>
     </div>
     <div class="col-sm-8">
+
       <h3>Actions</h3>
 	  <div id = "todo-add"> 
 		<form>
@@ -99,6 +100,13 @@ if(isset($_SESSION['userinfo'])){
 
 <link rel="stylesheet" href="Assets/ds_css.css">
   <script src="Assets/ds_js.js"></script>
-
+  
+<div id="dropshadow"></div>
+<div id="blogger_show"  onclick="hidePop()">
+    <div class="waitspinner_container"><img src="http://s9.postimg.org/eikge0gu3/spinner_128_anti_alias.gif" class="waitspinner"></div>
+    <iframe id="ytplayer"  width="640" height="390"
+  src=""
+  frameborder="0"/>
+  
 </body>
 </html>
