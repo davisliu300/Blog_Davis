@@ -55,11 +55,13 @@ if(isset($_SESSION['userinfo'])){
 	  
 
 		</div> 
+		<hr>
 	  
 	  <div class = "display_blog">
 	  
 	  </div> 
-	  
+	
+	  <div> 
       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
       
 	  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
@@ -80,6 +82,7 @@ if(isset($_SESSION['userinfo'])){
 	  </p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
 	  
 	  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p><p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+	  </div>
     </div>
     <div class="col-sm-2">
       <h3>Advertise ment</h3>        

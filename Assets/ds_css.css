@@ -38,6 +38,11 @@
 
 }
 
+.todo-modify{
+	padding: 0;
+	text-align: right;
+	
+}
 
 @media screen and (max-width: 801px){
   .mediaNoShow{

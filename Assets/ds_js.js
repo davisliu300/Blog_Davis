@@ -7,13 +7,14 @@ $('document').ready(function () { //when the document is ready
 			detail_contents : todoadd.find("textarea[name=detail_contents]").val(),
 		} //get all the values from the form and add them to our data object for sending
 		$.ajax({
-			url : 'pages/modifying.php', //send our data to modifying.php
+			url : 'pages/modifying_add.php', //send our data to modifying.php
 			data : form_data, //give it the form data
 			dataType : 'json', //expect json data back
 			cache : false, //do not let the response be cached
 			method : 'POST', //use POST to send it
 			success : function (response) { //and do something when the response comes back
 				//success is achieved!
+				console.log("in save task success");
 				$("#display_refresh").click();
 			}
 		});
@@ -27,10 +28,11 @@ $('document').ready(function () { //when the document is ready
 			cache : false, //do not cache the result
 			method : 'POST', 		
 			success : function (response) { //do thing when we get data back
-				console.log("response: ", response);
+//				console.log("response: ", response);
 //				if (response.success) {
 					console.log("inside displayRefresh data.success ");
 					$(".display_blog").html(response.html); //take the html object of the data object, and put it into the display container
+					//$(".display_blog").html("This is a text test"); 
 //				}
 			}
 		});
@@ -43,7 +45,7 @@ $('document').ready(function () { //when the document is ready
 	var temp = $('#todo-list-container > .todo-record');	
 	console.log(temp);
 */	
-	$('#todo-list-container').on('click', '.todo-remove > .btn', function () {
+	$('.display_blog').on('click', '.todo-modify > .btn', function () {
 	//    $().click(function(){
 	
 //		console.log("this is ", $(this));
@@ -55,7 +57,7 @@ $('document').ready(function () { //when the document is ready
 		var okToDelete = window.confirm("really to delete?");
 		if(okToDelete){		
 			$.ajax({
-				url : 'actions/remove.php',
+				url : 'pages/modifying_del.php',
 				cache : false,
 				data: {id: rowID},
 				method: 'POST',  //use the post method
